@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header,
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.navigaatiomenu {
+    display: flex;
+    justify-content: center; 
+    margin-top: 0px;
+    background-color: #444;
+    padding: 10px;
+    gap: 60px  ;
+
+}
+
+.navigaatiomenu a,
+.navigaatiomenu a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navigaatiomenu a:hover,
+.navigaatiomenu a:focus {
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+.navigaatiomenu a {
+    display: block;
+}
+
+.navigaatiomenu a {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigaatiomenu a:hover {
+    padding-left: 0rem; 
+    letter-spacing: 2px;
+}
+
+
+body {
+    margin: 0rem;
+    font-family: 'Smooch Sans', sans-serif;
+    text-align: center;
+}
+
+.content {
+    flex: 1; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #f4f4f4;
+}
+
+.aboutme {
+    flex: 1; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #f4f4f4;
+    justify-items: left;
+}
+
+h2 {
+    padding: 1rem;
+    background: #333;
+    color: whitesmoke;
+    border-radius: 5rem 5rem 0 0;
+}
+
+ul {
+    list-style-type: none;
+    max-width: fit-content;
+    margin: 0 auto;
+
+}
+
+li a,
+li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover,
+li a:focus {
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+li a {
+    display: block;
+}
+
+
+li a {
+    transition: all 0.3s cubic-bezier(0.3, 0, 0.1, 1);
+}
+
+li a:hover {
+    padding-left: 0rem; 
+    letter-spacing: 2px;
+}
+
+.aboutme {
+    margin: 0rem;
+    font-family: 'Smooch Sans', sans-serif;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+.yhteystiedot {
+   display: flex;
+    justify-content: center; 
+    margin-top: 0px;
+    background-color: #444;
+    padding: 10px;
+    gap: 60px  ;
+    margin-bottom: 0px;
+}
+
+.yhteystiedot a,
+.yhteystiedot a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.content {
+    flex: 1; 
+}
+
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
